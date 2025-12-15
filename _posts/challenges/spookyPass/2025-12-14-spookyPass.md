@@ -15,7 +15,7 @@ Let's run it.
 
 Let's have a look at the file through a reverse engineering tool. I'm going to use ghidra.
 
-![alt text](/assets/challenges/sspookyPass/image-1.png)
+![alt text](/assets/challenges/spookyPass/image-1.png)
 
 After adding *pass*, we can analyze it.
 
