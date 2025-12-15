@@ -4,6 +4,7 @@ date: 2025-12-14
 categories: [HackTheBox, Challenges]
 tags: [reverse_engineering, HTB, challenge]
 diffficulty: Very Easy
+author: memegamer138
 ---
 
 This is my writeup for the SpookyPass challenge on HTB.
