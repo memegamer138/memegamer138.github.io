@@ -1,8 +1,9 @@
 ---
 title: "HTB: Spooky Pass Challenge"
 date: 2025-12-14
-categories: [HackTheBox]
-tags: [reverse_enginnering, HTB, challenge]
+categories: [HackTheBox, Challenges]
+tags: [reverse_engineering, HTB, challenge]
+diffficulty: Very Easy
 ---
 
 This is my writeup for the SpookyPass challenge on HTB.
