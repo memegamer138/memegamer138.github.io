@@ -5,8 +5,8 @@ categories: [HackTheBox, Machines]
 tags: [Cacti, HTB, machine, season9]
 diffficulty: Easy
 layout: post
-author: memegamer138
-github_username: memegamer138
+author: Shakthi Vel
+github_username: Shakthi Vel
 ---
 
 ## Executive Summary
