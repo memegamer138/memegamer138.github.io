@@ -53,6 +53,28 @@ Welcome to my  blog where I document solutions to Hack The Box machines and chal
   <p>No challenge write-ups yet. Coming soon!</p>
 {% endif %}
 
+## Non Hack The Box Stuff
+### Latest OverTheWire Write-ups
+{% assign wargame_posts = site.categories.OverTheWire %}
+{% if wargame_posts.size > 0 %}
+  <ul class="post-list">
+  {% for post in wargame_posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+      <div class="post-tags">
+        {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+  <p><a href="/overthewire">View all OverTheWire write-ups →</a></p>
+{% else %}
+  <p>No OverTheWire write-ups yet.</p>
+{% endif %}
+
 ---
 
 ## Browse by Category
@@ -77,6 +99,13 @@ Welcome to my  blog where I document solutions to Hack The Box machines and chal
     <p>Browse by specific techniques, tools, or vulnerability types.</p>
     {% assign unique_tags = site.tags | size %}
     <p class="count">{{ unique_tags }} tags</p>
+  </div>
+
+  <div class="category-card">
+  <h3><a href="/overthewire">OverTheWire</a></h3>
+  <p>Level-by-level notes from OverTheWire wargames.</p>
+  {% assign wargame_count = site.categories.OverTheWire | size %}
+  <p class="count">{{ wargame_count }} write-ups</p>
   </div>
 </div>
 
