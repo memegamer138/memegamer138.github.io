@@ -95,17 +95,17 @@ Welcome to my  blog where I document solutions to Hack The Box machines and chal
   </div>
   
   <div class="category-card">
-    <h3><a href="/tags">Tags</a></h3>
-    <p>Browse by specific techniques, tools, or vulnerability types.</p>
-    {% assign unique_tags = site.tags | size %}
-    <p class="count">{{ unique_tags }} tags</p>
-  </div>
-
-  <div class="category-card">
   <h3><a href="/overthewire">OverTheWire</a></h3>
   <p>Level-by-level notes from OverTheWire wargames.</p>
   {% assign wargame_count = site.categories.OverTheWire | size %}
   <p class="count">{{ wargame_count }} write-ups</p>
+  </div>
+
+  <div class="category-card">
+    <h3><a href="/tags">Tags</a></h3>
+    <p>Browse by specific techniques, tools, or vulnerability types.</p>
+    {% assign unique_tags = site.tags | size %}
+    <p class="count">{{ unique_tags }} tags</p>
   </div>
 </div>
 
